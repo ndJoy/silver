@@ -29,6 +29,7 @@
     color: #4183C4;
 }
 
+/* Replace the below url with url(../../../favicon.ico) to get the Redmine one */
 #header>h1 {
     background: url(../images/ico.png) no-repeat;
     background-size: 30px 30px;
