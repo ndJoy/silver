@@ -1,0 +1,122 @@
+/* load the default Redmine stylesheet */
+
+@import url(../../../stylesheets/application.css);
+#top-menu {
+    background: #d8d8d8;
+}
+/* Possibly background: #b0b0b0; */
+
+#top-menu a {
+    color: #444;
+}
+/* Possibly color: #222; */
+
+#top-menu a:hover {
+    color: #eee;
+    font-weight: bold;
+}
+
+#top-menu #loggedas {
+    color: #333;
+}
+
+#header {
+    background-color: #fafafa;
+    color: #393939;
+}
+
+#header a {
+    color: #4183C4;
+}
+
+#header>h1 {
+    background: url(../images/ico.png) no-repeat;
+    background-size: 30px 30px;
+    padding: 1px 40px;
+    color: #393939;
+}
+
+#main-menu {
+    color: #0f0;
+    background: #d8d8d8;
+    border: 1px solid #bbbbbb;
+    border-bottom-color: #999999;
+}
+
+#main-menu li a {
+    color: #555;
+}
+
+#main-menu li a:hover {
+    background: #aaaaaa;
+    color: #fff;
+}
+
+#main-menu .menu-children li a {
+    color: #555;
+    background-color: #d8d8d8;
+    font-weight: normal;
+}
+
+#main-menu .menu-children li a:hover {
+    color: #fff;
+    background-color: #aaaaaa;
+}
+
+#main-menu li a.new-object {
+    background-color: #aaaaaa;
+}
+
+#main {
+    margin: 15px 15px 0 15px;
+    background-color: white;
+}
+
+#content {
+    width: 78%;
+    background-color: #fff;
+    margin: 0px;
+    border-right: 1px solid #ddd;
+    padding: 6px 10px 10px 10px;
+    z-index: 10;
+}
+
+#content,
+#main.nosidebar #content {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+div#content>h2,
+div#content h2.contacts_header {
+    border-bottom: 1px solid #d8e6ec;
+    background: #E6F1F6;
+    text-shadow: 0 1px white;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    padding: 8px 20px;
+    margin: -6px -10px 10px;
+}
+
+div#content>div.filters h2,
+div#content>#add-news>h2,
+div#content>#add-message>h2,
+div#content>#add-document>h2 {
+    border-bottom: 1px solid #C5D5DD;
+    background: #E6F1F6;
+    text-shadow: 0 1px white;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    padding: 8px 20px;
+    margin: -6px -10px 10px;
+}
+
+#sidebar {
+    width: 15% !important;
+    padding: 0 10px 20px 15px !important;
+    border: 1px solid #ddd;
+    zoom: 1;
+    border-radius: 4px;
+}
